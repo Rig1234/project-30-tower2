@@ -126,7 +126,7 @@ function mouseReleased(){
 function keyPressed(){
 //write code for extra chance of the player
 if(keyCode === 32 ){
-  Matter.Body.setPosition(polygon.body,{x:400, y:400});
+  //Matter.Body.setPosition(polygon.body,{x:400, y:400});
     slingShot.attach(polygon.body);
 
 }
